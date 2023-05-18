@@ -1,0 +1,10 @@
+/boot full issue
+
+    //List Kernels
+    dpkg --list | grep -E -i --color 'linux-image|linux-headers'
+    
+    //List Disk Space
+    df -H
+    
+    //Remove Kernels
+    sudo apt-get purge "Insert Image Name"
